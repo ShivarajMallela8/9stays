@@ -25,3 +25,54 @@ body {
     text-wrap: balance;
   }
 }
+
+/* styles/globals.css */
+body {
+  font-family: 'Arial, sans-serif';
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  background-image: url('/images/hotel1.jpg');
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+button {
+  padding: 1rem 2rem;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff8a72;
+}
